@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v4.widget.NestedScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/blaq"
+            android:orientation="horizontal">
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="50dp"
+                android:background="@color/wh"
+                android:drawableLeft="@drawable/ic_format_list_bulleted_black_24dp"
+                android:drawableRight="@drawable/ic_photo_camera_black_24dp"
+                android:drawablePadding="10dp"
+                android:text="@string/hed"
+                android:textColor="@color/blaq"
+
+                android:textSize="25sp" />
+
+            <ImageView
+                android:layout_width="62dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:src="@drawable/ic_shopping_cart_black_24dp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="257dp"
+            android:background="@drawable/carousel"
+            android:orientation="vertical">
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="15sp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/ic_list"
+                android:gravity="center"
+                android:text="@string/cat"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:drawableTop="@drawable/ic_clearance"
+
+                android:text="@string/free"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:drawableTop="@drawable/ic_pay_per_click"
+                android:text="@string/coin"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:drawableTop="@drawable/ic_cafe"
+                android:text="@string/store"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:drawableTop="@drawable/ic_speech_bubble"
+                android:text="@string/zone"
+                android:textSize="20sp" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15sp"
+            android:text="@string/deals"
+            android:textSize="25sp"
+            android:paddingLeft="10dp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="15sp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_marginHorizontal="10dp">
+
+                <ImageView
+                    android:layout_width="103dp"
+                    android:layout_height="166dp"
+                    android:src="@drawable/brandpant"
+                    android:layout_gravity="center"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="10dp"
+                    android:gravity="center"
+                    android:text="@string/price"
+                    android:layout_gravity="center"
+                    android:textColor="@color/wh"
+                    android:textSize="20sp"
+
+                    android:background="@drawable/ic_black_bubble_speech"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/price4"
+                    android:layout_gravity="center"
+                    android:textStyle="bold|italic"
+                    android:textSize="18sp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_marginHorizontal="10dp"
+                >
+
+                <ImageView
+                    android:layout_width="103dp"
+                    android:layout_height="166dp"
+                    android:src="@drawable/wristwatch"
+                    android:layout_gravity="center"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/price1"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textColor="@color/wh"
+                    android:layout_marginHorizontal="10dp"
+                    android:textSize="20sp"
+                    android:background="@drawable/ic_black_bubble_speech"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/price5"
+                    android:layout_gravity="center"
+                    android:textStyle="bold|italic"
+                    android:textSize="18sp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_marginHorizontal="10dp">
+
+                <ImageView
+                    android:layout_width="103dp"
+                    android:layout_height="166dp"
+                    android:src="@drawable/antiagingcream"
+                    android:layout_gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginHorizontal="10dp"
+                    android:text="@string/price2"
+                    android:layout_gravity="center"
+                    android:textColor="@color/wh"
+                    android:textSize="20sp"
+                    android:background="@drawable/ic_black_bubble_speech"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/price6"
+                    android:layout_gravity="center"
+                    android:textStyle="bold|italic"
+                    android:textSize="18sp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_marginHorizontal="10dp">
+
+                <ImageView
+                    android:layout_width="103dp"
+                    android:layout_height="166dp"
+                    android:src="@drawable/oedosnail"
+                    android:layout_gravity="center"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="10dp"
+                    android:gravity="center"
+
+                    android:text="@string/price3"
+                    android:layout_gravity="center"
+                    android:textColor="@color/wh"
+                    android:textSize="20sp"
+                    android:background="@drawable/ic_black_bubble_speech"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/price7"
+                    android:layout_gravity="center"
+                    android:textStyle="bold|italic"
+                    android:textSize="18sp"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/brand"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:textSize="22sp"/>
+
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>
+
+

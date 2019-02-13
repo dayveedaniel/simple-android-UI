@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">ali express</string>
+    <string name="sparkle">SPARKLE and SHINE BRIGHT</string>
+    <string name="pre_o">Pre-order now and get uo to 20% off sale prices</string>
+    <string name="cat">All Categories</string>
+    <string name="free">Freebies and Reviews</string>
+    <string name="coin">Coins and Coupons</string>
+    <string name="store">My Stores</string>
+    <string name="zone">Fan Zone</string>
+    <string name="deals">Flash Deals</string>
+    <string name="more">More</string>
+    <string name="brand">Featured Brands</string>
+    <string name="price">-37%</string>
+    <string name="price1">-92%</string>
+    <string name="price2">-88%</string>
+    <string name="price3">-87%</string>
+    <string name="price4">US $2.60</string>
+    <string name="price5">US $17.60</string>
+    <string name="price6">US $3.31</string>
+    <string name="price7">US $4.03</string>
+    <string name="hed">BRANDS SHOPPING W...</string>
+</resources>
